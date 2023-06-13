@@ -1,0 +1,13 @@
+'''
+The adapter pattern is a structural design pattern that helps us make two incompatible interfaces compatible
+
+'''
+
+class Club:
+    def __init__(self, name):
+        self.name = name
+
+    def __str__(self):
+        return f'club {self.name}'
+
+    def 
